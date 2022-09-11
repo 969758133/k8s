@@ -1,1 +1,2 @@
-FROM k8s.gcr.io/build-image/setcap:buster-v2.0.3
+FROM k8s.gcr.io/build-image/kube-cross:v1.16.5-1
+RUN echo 1
