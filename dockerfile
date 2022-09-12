@@ -1,2 +1,2 @@
-FROM k8s.gcr.io/build-image/kube-cross:v1.16.5-1
-RUN echo 1
+FROM k8s.gcr.io/build-image/debian-iptables:buster-v1.6.5
+RUN echo 2
