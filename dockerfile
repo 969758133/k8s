@@ -1,2 +1,2 @@
-FROM  --platform=linux/amd64  k8s.gcr.io/build-image/go-runner:v2.3.1-go1.16.8-buster.0
+FROM  --platform=linux/amd64  golang:1.18.9
 #RUN echo 6
