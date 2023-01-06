@@ -1,2 +1,2 @@
-FROM  --platform=linux/amd64  golang:1.18.9
+FROM  --platform=linux/amd64  gcr.io/distroless/base
 #RUN echo 6
