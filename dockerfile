@@ -1,2 +1,2 @@
-FROM  --platform=linux/amd64  quay.io/ceph/ceph:v17.2.5
+FROM  quay.io/cephcsi/cephcsi:v3.7.2
 #RUN echo 7
