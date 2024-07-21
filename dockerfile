@@ -1,2 +1,2 @@
-FROM  --platform=linux/arm64  litmuschaos/go-runner:v2.3.x
+FROM  --platform=linux/arm64 gcriogke/distroless-iptables:v0.4.5-gke.0
 #RUN echo 7
