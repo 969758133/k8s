@@ -1,2 +1,2 @@
-FROM  --platform=linux/arm64  litmuschaos/go-runner:v2.3.x
+FROM  --platform=linux/arm64  rancher/pause:3.2
 #RUN echo 7
