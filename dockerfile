@@ -1,2 +1,2 @@
-FROM  --platform=linux/amd64 tuxmake/base-debian12:20240701 
+FROM  --platform=linux/arm64  litmuschaos/go-runner:v2.3.x
 #RUN echo 7
