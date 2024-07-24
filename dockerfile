@@ -1,2 +1,2 @@
-FROM  --platform=linux/arm64  rancher/pause:3.2
+FROM  --platform=linux/arm64 kubeovn/kube-ovn:v1.12.20-arm
 #RUN echo 7
