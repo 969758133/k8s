@@ -8,5 +8,6 @@
 #FROM  --platform=linux/arm64   cloudx2021/cdi-uploadserver:v1.56-arm64
 #FROM  --platform=linux/arm64  cloudx2021/cdi-uploadproxy:v1.56-arm64
 #FROM  --platform=linux/arm64  cloudx2021/virtio-container-disk:v0.51.0.10-arm64
-FROM  --platform=linux/arm64  cloudx2021/cirros-container-disk-demo:v0.51.0.10-arm64
+#FROM  --platform=linux/arm64  cloudx2021/cirros-container-disk-demo:v0.51.0.10-arm64
+FROM  --platform=linux/arm64   docker/dockerfile:experimental
 #RUN echo 7
