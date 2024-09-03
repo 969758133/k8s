@@ -11,5 +11,6 @@
 #FROM  --platform=linux/arm64  cloudx2021/cirros-container-disk-demo:v0.51.0.10-arm64
 #FROM  --platform=linux/arm64   docker/dockerfile:experimental
 #FROM  --platform=linux/arm64   ubuntu:22.04
-FROM  --platform=linux/arm64   ghcr.io/k8snetworkplumbingwg/multus-cni:snapshot-thick
+#FROM  --platform=linux/arm64   ghcr.io/k8snetworkplumbingwg/multus-cni:snapshot-thick
+FROM   --platform=linux/arm64  mariadb:10.1.37
 #RUN echo 7
