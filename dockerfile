@@ -12,6 +12,7 @@
 #FROM  --platform=linux/arm64   docker/dockerfile:experimental
 #FROM  --platform=linux/arm64   ubuntu:22.04
 #FROM  --platform=linux/arm64   ghcr.io/k8snetworkplumbingwg/multus-cni:snapshot-thick
-FROM   --platform=linux/arm64/v8  mariadb:10.1.37
-FROM   nibo/jenkins-slave-java:0.0.2
+#FROM   --platform=linux/arm64/v8  mariadb:10.1.37
+#FROM   nibo/jenkins-slave-java:0.0.2
+FROM   --platform=linux/amd64   docker.io/calico/pod2daemon-flexvol:v3.5.4
 #RUN echo 7
