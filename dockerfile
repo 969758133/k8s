@@ -16,4 +16,5 @@
 #FROM   nibo/jenkins-slave-java:0.0.2
 #FROM   --platform=linux/amd64   docker.io/calico/pod2daemon-flexvol:v3.5.4
 FROM   --platform=linux/amd64  kubeovn/kube-ovn:v1.11.3
+FROM   --platform=linux/amd64   kubevirt/kubevirt-cdi-bazel-builder:0.0.10
 #RUN echo 7
