@@ -15,6 +15,7 @@
 #FROM   --platform=linux/arm64/v8  mariadb:10.1.37
 #FROM   nibo/jenkins-slave-java:0.0.2
 #FROM   --platform=linux/amd64   docker.io/calico/pod2daemon-flexvol:v3.5.4
-FROM   --platform=linux/amd64  kubeovn/kube-ovn:v1.11.3
-FROM   --platform=linux/amd64   kubevirt/kubevirt-cdi-bazel-builder:0.0.10
+#FROM   --platform=linux/amd64  kubeovn/kube-ovn:v1.11.3
+#FROM   --platform=linux/amd64   kubevirt/kubevirt-cdi-bazel-builder:0.0.10
+FROM  --platform=linux/amd64 2030047311/base-debian12:latest
 #RUN echo 7
