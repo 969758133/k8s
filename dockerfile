@@ -18,5 +18,6 @@
 #FROM   --platform=linux/amd64  kubeovn/kube-ovn:v1.11.3
 #FROM   --platform=linux/amd64   kubevirt/kubevirt-cdi-bazel-builder:0.0.10
 #FROM  --platform=linux/amd64 2030047311/base-debian12:latest
-FROM   lfoppiano/grobid:0.7.1
+#FROM   lfoppiano/grobid:0.7.1
+FROM   panda1024/chatpaper:v1.0
 #RUN echo 7
